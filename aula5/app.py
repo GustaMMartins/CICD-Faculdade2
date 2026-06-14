@@ -5,8 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "SLK, merece um 10, Meu código roda tão liso que a RAM pede férias.
-    Dizem que a IA vai substituir os programadores. Depois que ela viu meu código, pediu transferência de área!"
+    return "SLK, merece um 10, Meu código roda tão liso que a RAM pede férias!"
 
 @app.route("/status")
 def status():
