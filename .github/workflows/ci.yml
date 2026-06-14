@@ -5,6 +5,7 @@ on:
   pull_request:
 
 jobs:
+  
   test:
     name: CI - API Flask
     runs-on: ubuntu-latest
