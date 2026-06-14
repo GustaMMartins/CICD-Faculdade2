@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "API rodando muito bem!"
+    return "SLK, merece um 10, Meu código roda tão liso que a RAM pede férias!"
 
 @app.route("/status")
 def status():
