@@ -20,7 +20,7 @@ jobs:
         run: pip install -r aula5/requirements.txt
 
       - name: Rodar testes
-        run: pytest aula5/
+        run: PYTHONPATH=. pytest aula5/
 
       - name: Simular Deploy
         run: echo "Deploy realizado com sucesso"
